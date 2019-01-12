@@ -4,7 +4,7 @@
     "license": "MIT",
     "scripts": {
         "build": "emojicodec ./🔧/🏁.emojic -o bin/app",
-        "clean": "rm -f ./🔧/*.o && rm -f ./bin/app",
+        "clean": "rm -f ./🧪//*.o && rm -f ./🔧/*.o && rm -f ./bin/app && rm -f ./bin/test",
         "run": "bin/app Example",
         "test": "rm -f ./bin/test && emojicodec ./🧪/🏁.emojic -o ./bin/test && ./bin/test"
     },
