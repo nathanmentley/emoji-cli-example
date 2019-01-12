@@ -5,7 +5,8 @@
     "scripts": {
         "build": "emojicodec ./🔧/🏁.emojic -o bin/app",
         "clean": "rm -f ./🔧/*.o && rm -f ./bin/app",
-        "run": "bin/app Example"
+        "run": "bin/app Example",
+        "test": "rm -f ./bin/test && emojicodec ./🧪/🏁.emojic -o ./bin/test && ./bin/test"
     },
     "dependencies": {
         "clihelper": "https://github.com/nathanmentley/emoji-cli.git"
